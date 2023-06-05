@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <Button
+        android:id="@+id/button_anterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anterior"
+        app:layout_constraintBottom_toTopOf="@id/textview_second"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/nome_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alexandre Rossa Soares da Rocha"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/numero_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1704920"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
